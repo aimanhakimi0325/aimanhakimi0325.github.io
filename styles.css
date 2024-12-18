@@ -1,0 +1,121 @@
+/* General Reset: Removes default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif; /* Sets font for the body */
+    line-height: 1.6; /* Sets line spacing for readability */
+    color: #333; /* Sets text color */
+    background-color: #f0f0f0; /* Light gray background for the page */
+}
+
+/* Header section styling with new color scheme */
+header {
+    background-color: #003366; /* Dark Blue background */
+    color: gold; /* Gold text color */
+    padding: 20px 0; /* Padding on top and bottom */
+    text-align: center; /* Centers text horizontally */
+    display: flex;
+    flex-direction: column;  /* Stack logo and title vertically */
+    justify-content: center; /* Vertically centers the content */
+    align-items: center; /* Horizontally centers the content */
+}
+
+/* Logo Styling */
+.logo-container {
+    display: flex;
+    justify-content: center;   /* Centers the logo horizontally */
+    align-items: center;       /* Centers the logo vertically */
+    margin-bottom: 10px;       /* Adds some space below the logo */
+    background-color: white;   /* White background for the logo */
+    padding: 5px;              /* Reduces space around the logo */
+    border-radius: 5px;        /* Optional: Softens the edges */
+}
+
+/* Adjust logo size */
+.um-logo {
+    width: 150px;  /* Adjust width of logo */
+    height: auto;   /* Keep aspect ratio */
+}
+
+/* Main title styling */
+header h1 {
+    font-size: 2.5em; /* Larger font size for the main title */
+    color: gold; /* Gold text for the main title */
+}
+
+/* Navigation bar styling with new color scheme */
+nav ul {
+    list-style: none; /* Removes default list style */
+    display: flex; /* Uses flexbox to align navigation items */
+    justify-content: center; /* Centers navigation items horizontally */
+    padding: 10px; /* Adds padding around the navigation bar */
+    background-color: #b30000; /* Deep Red background for the navigation */
+}
+
+/* List item (navigation links) styling */
+nav ul li {
+    margin: 0 15px; /* Horizontal margin between items */
+}
+
+/* Link styling for the navigation items */
+nav ul li a {
+    color: gold; /* Gold text for the links */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 1.2em; /* Slightly larger text size for links */
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+    text-decoration: underline; /* Underlines the link when hovered */
+    color: #ffcc00; /* Bright Gold color on hover */
+}
+
+/* Section styling for main content */
+section {
+    padding: 20px; /* Adds padding inside sections */
+    margin: 20px; /* Adds margin outside sections */
+    background-color: white; /* White background for each section */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Light shadow around sections */
+}
+
+/* Section heading styling */
+h2 {
+    color: #003366; /* Dark Blue color for section headings */
+    margin-bottom: 10px; /* Adds space below section heading */
+}
+
+/* Subheading styling */
+h3 {
+    margin-top: 20px; /* Adds margin on top of subheadings */
+    color: #b30000; /* Red color for subheadings */
+}
+
+/* List styling */
+ul {
+    list-style: disc; /* Adds bullets to lists */
+    margin-left: 20px; /* Indentation for list items */
+}
+
+/* Footer section styling */
+footer {
+    text-align: center; /* Centers text in the footer */
+    padding: 20px; /* Adds padding inside the footer */
+    background-color: #003366; /* Dark Blue background for footer */
+    color: gold; /* Gold text in footer */
+    margin-top: 40px; /* Adds space between footer and main content */
+}
+
+/* Adding a nice border and background to the footer links */
+footer a {
+    color: gold; /* Gold color for footer links */
+    text-decoration: none; /* Removes underline from links */
+}
+
+footer a:hover {
+    color: #ffcc00; /* Bright Gold color on hover */
+}
